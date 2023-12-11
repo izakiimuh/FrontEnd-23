@@ -17,9 +17,9 @@
 </head>
 <body>
 <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
         <div class="container">
-          <a class="navbar-brand fs-2" href="#">MyWeb</a>
+          <a class="navbar-brand fs-2" href="#" id="navbar">MyWeb</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,13 +42,9 @@
               </li>
             </ul>
           </div>
-        </div>
     </nav>
-    <div class="ms-5 mb-5 fixed-bottom">
-        <a href="#"><i class="bi bi-whatsapp display-3 text-success"></i></a>
-    </div>
 <!-- BANNER -->
-    <div class="container-fluid banner bg-dark">
+    <div class="container-fluid banner bg-dark pt-5 pb-5">
         <div class="container text-center">
             <h1 class="text-light">W E L C O M E</h1>
             <h5 class="display-2 text-warning mb-5">Hi, I Am Back !</h5>
@@ -103,17 +99,17 @@
     <div class="container-fluid gallery pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-3">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active galeri">
-                            <img src="profil.jfif">
+                            <img src="profil.jfif" class="object-fit-sm-cover border rounded-5" alt="">
                           </div>
                           <div class="carousel-item">
-                            <img src="profil5.jfif">
+                            <img src="profil4.jfif" class="object-fit-sm-cover border rounded-5" alt="">
                           </div>
                           <div class="carousel-item">
-                            <img src="profil2.jfif">
+                            <img src="profil7.jfif" class="object-fit-sm-cover border rounded-5" alt="">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -127,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="display-3 pb-3" id="gallery">Gallery</h2>
+                    <h2 class="display-3" id="gallery">Gallery</h2>
                     <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam magnam consectetur, laudantium ex temporibus sequi sunt ullam facere eligendi, sit, quam illo nulla minima voluptas sint odit architecto enim expedita voluptatem aut voluptates ducimus dolorum aperiam? Provident dolore, praesentium officia cupiditate impedit voluptates eum error corporis temporibus ratione, amet, voluptatem soluta tempora harum ea dicta atque neque assumenda qui sapiente quidem culpa quos incidunt.</p>
                 </div>
             </div>
@@ -139,35 +135,35 @@
         <h2 class="display-3" id="testimoni">Testimoni</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, tenetur! Maxime facere dicta saepe debitis sed minima repudiandae nobis molestiae.</p>
         <div class="row pt-4 g-4">
-            <div class="col-md-4 text-center tim shadow">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle mb-3" widht="250" height="250">
-                <h4>Muhammad Zaki</h4>
+            <div class="col-md-4 text-center shadow">
+                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3" style="width: 250px; height: 250px;">
+                <h4>Arthur</h4>
                 <p>Web Designer</p>
-                <p>
-                    <a href="#" class="sosmed"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-linkedin"></i></a>
-                </p>
+                <div class="fs-5">
+                    <a href="#"><i class="bi bi-instagram link-dark"></i></a>
+                    <a href="#"><i class="bi bi-facebook link-dark"></i></a>
+                    <a href="#"><i class="bi bi-linkedin link-dark"></i></a>
+                </div>
             </div>
-            <div class="col-md-4 text-center tim">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle mb-3" widht="250" height="250">
-                <h4>Michael Arthuro</h4>
+            <div class="col-md-4 text-center">
+                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3" style="width: 300px; height: 300px;">
+                <h2>Muhammad Zaki</h2>
                 <p>Data Scientist</p>
-                <p>
-                    <a href="#" class="sosmed"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-linkedin"></i></a>
-                </p>
+                <div class="fs-4">
+                    <a href="#"><i class="bi bi-instagram link-dark"></i></a>
+                    <a href="#"><i class="bi bi-facebook link-dark"></i></a>
+                    <a href="#"><i class="bi bi-linkedin link-dark"></i></a>
+                </div>
             </div>
-            <div class="col-md-4 text-center tim shadow">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle mb-3" widht="250" height="250">
+            <div class="col-md-4 text-center shadow">
+                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3" style="width: 250px; height: 250px;">
                 <h4>David Villa</h4>
                 <p>Programmer</p>
-                <p>
-                    <a href="#" class="sosmed"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="sosmed"><i class="bi bi-linkedin"></i></a>
-                </p>
+                <div class="fs-5">
+                    <a href="#"><i class="bi bi-instagram link-dark"></i></a>
+                    <a href="#"><i class="bi bi-facebook link-dark"></i></a>
+                    <a href="#"><i class="bi bi-linkedin link-dark"></i></a>
+                </div>
             </div>
         </div>
        </div>
@@ -179,36 +175,30 @@
     <div class="container-fluid pt-5 pb-5 bg-secondary bg-opacity-10">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex mb-5">
-                        <div class="fs-3 ms-3">
+                <div class="col-md-6 mb-5">
+                    <div class="d-flex mb-5 fs-1">
                             <i class="bi bi-geo-alt-fill social"></i>
-                        </div>
-                        <div class="ms-3">
+                        <div class="ms-4">
                             <h3>Alamat</h3>
                             <h5 class="text-secondary">Makassar City</h5>
                         </div>
                     </div>
-                    <div class="d-flex mb-5">
-                        <div class="fs-3 ms-3">
+                    <div class="d-flex mb-5 fs-1">
                             <i class="bi bi-telephone-fill social"></i>
-                        </div>
-                        <div class="ms-3">
+                        <div class="ms-4">
                             <h3>Telepon</h3>
                             <h5 class="text-secondary">082194330102</h5>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <div class="fs-3 ms-3">
+                    <div class="d-flex fs-1">
                             <i class="bi bi-envelope social"></i>
-                        </div>
-                        <div class="ms-3">
+                        <div class="ms-4">
                             <h3>Email</h3>
                             <h5 class="text-secondary">zaki@gmail.com</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 border p-3">
+                <div class="col-md-6 border rounded p-3">
                     <div class="mb-3">
                         <label for="nama" class="form-label">Nama</label>
                         <input type="nama" class="form-control" id="nama" placeholder="Masukkan nama anda">
@@ -233,6 +223,10 @@
         </div>
     </div>
 <!-- FOOTER -->  
+    <div class="fixed-bottom">
+        <a href="#navbar"><i class="bi bi-arrow-up-circle-fill fs-1 text-secondary float-end me-3"></i></a>
+        </a>
+    </div> 
     <footer class="bg-dark text-secondary text-center p-2">
         copyright&copy;zaki2023, All Right Reserved.
     </footer>
