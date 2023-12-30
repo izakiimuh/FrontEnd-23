@@ -103,6 +103,10 @@
     margin-top: 30px;
 }
 
+.testi a {
+    font-size: 30px;
+}
+
 .contact {
     background-color: rgba(49, 80, 92, 0.2);
 }
