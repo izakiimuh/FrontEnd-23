@@ -17,19 +17,19 @@
 </head>
 <body>
 <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container navbar1">
           <a class="navbar-brand fs-1" href="#" id="navbar">MyWeb</a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#layanan">Layanan</a>
+                <a class="nav-link" href="#portofolio">Portofolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#gallery">Gallery</a>
@@ -42,74 +42,72 @@
               </li>
             </ul>
           </div>
+        </div>
     </nav>
 <!-- BANNER -->
-    <div class="container-fluid banner bg-dark pt-5 pb-5">
-        <div class="container text-center">
-             <h1 style="font-size: 10vw;">WELCOME</h1>
-            <h5 class="display-3 text-warning mb-5" style="font-size: 5vw;">Hi, I Am Back !</h5>
-        </div>
-        <div class="mt-3 text-center">
-            <div class="d-inline-flex gap-3">
-                <a href="#kontak" class="btn btn-outline-light">MORE INFO</a>
-                <a href="#download" class="btn btn-outline-light">DOWNLOAD</a>
+    <div class="container-fluid banner">
+        <div class="container">
+            <h1>WELCOME</h1>
+            <h5>Hi, I Am Back !</h5>
+            <div class="klik">
+                <a href="#kontak" class="btn btn-light btn1">MORE INFO</a>
+                <a href="#download" class="btn btn-outline-light btn2">DOWNLOAD</a>
             </div>
         </div>
     </div>
 <!-- ABOUT -->
-    <div class="container-fluid about pt-5 pb-5">
-        <div class="container bg-light shadow">
+    <div class="container-fluid">
+        <div class="container shadow about">
             <div class="row">
-                <div class="col-md-6 paragraph">
-                    <h1 class="display-3 mb-2 text-center" id="about">About</h1>
+                <div class="col-md-6">
+                    <h1 id="about">About</h1>
                     <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestiae doloremque unde? Dolores fuga eligendi voluptate accusantium, reprehenderit deleniti sequi, neque dignissimos repellat sapiente itaque modi id mollitia culpa! Tempora asperiores id iure sit quas odio expedita repellendus, amet, at quia ducimus architecto eligendi explicabo et, modi nihil dignissimos maiores magnam molestiae! Expedita eos totam amet sequi odit quae voluptate veniam molestias officia ea!</P>
                 </div>
                 <div class="col-md-6">
-                    <img src="about-us-information-service-sharing-join-concept_53876-124056.avif" class=" mb-3 crop-img img-fluid" class="w-500"></i>
+                    <img src="about-us-information-service-sharing-join-concept_53876-124056.avif"></i>
                 </div>
             </div>
-            
         </div>
     </div>
-<!-- LAYANAN -->
-    <div class="container-fluid layanan pt-5 pb-5">
-        <div class="container text-center">
-            <h2 class="display-3" id="layanan">Layanan</h2>
+<!-- PORTOFOLIO -->
+    <div class="container-fluid">
+        <div class="container portofolio">
+            <h1 id="portofolio">Portofolio</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas autem beatae dolore dolor placeat, et libero reprehenderit necessitatibus distinctio consequatur sequi ducimus sed odit in, tempora ipsam. Ducimus, sed?</p>
-            <div class="row pt-4 shadow-lg">
+            <div class="row">
                 <div class="col-md-4">
-                    <img src="code.svg" class="img-fluid w-25">
-                    <h3 class="mt-3">Programming</h3>
+                    <img src="code.svg" class="img-fluid">
+                    <h3 class="programming">Programming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, doloremque voluptatibus rerum cum aspernatur nam minus facilis mollitia earum vel quisquam est nesciunt, at quia quasi deleniti laborum? Saepe, autem!</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="layout.svg" class="img-fluid w-25">
-                    <h3 class="mt-3">Web Development</h3>
+                    <img src="layout.svg" class="img-fluid">
+                    <h3 class="webdevelop">Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, doloremque voluptatibus rerum cum aspernatur nam minus facilis mollitia earum vel quisquam est nesciunt, at quia quasi deleniti laborum? Saepe, autem!</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="figma.svg" class="img-fluid w-25">
-                    <h3 class="mt-3">Graphic Desaign</h3>
+                    <img src="figma.svg" class="img-fluid">
+                    <h3 class="design">Graphic Desaign</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, doloremque voluptatibus rerum cum aspernatur nam minus facilis mollitia earum vel quisquam est nesciunt, at quia quasi deleniti laborum? Saepe, autem!</p>
                 </div>
             </div>
         </div>
     </div>
 <!-- GALLERY -->
-    <div class="container-fluid gallery pt-5 pb-5">
-        <div class="container">
+    <div class="container-fluid">
+        <div class="container gallery">
             <div class="row">
-                <div class="col-md-6 mb-3">
+                <div class="col-md-6">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active galeri">
-                            <img src="profil.jfif" class="object-fit-sm-cover border rounded-5 img-fluid" alt="">
+                          <div class="carousel-item active">
+                            <img src="profil.jfif" class="img-fluid">
                           </div>
                           <div class="carousel-item">
-                            <img src="profil4.jfif" class="object-fit-sm-cover border rounded-5 img-fluid" alt="">
+                            <img src="profil4.jfif" class="img-fluid">
                           </div>
                           <div class="carousel-item">
-                            <img src="profil7.jfif" class="object-fit-sm-cover border rounded-5 img-fluid" alt="">
+                            <img src="profil7.jfif" class="img-fluid">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -123,20 +121,20 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="display-3" id="gallery">Gallery</h2>
-                    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam magnam consectetur, laudantium ex temporibus sequi sunt ullam facere eligendi, sit, quam illo nulla minima voluptas sint odit architecto enim expedita voluptatem aut voluptates ducimus dolorum aperiam? Provident dolore, praesentium officia cupiditate impedit voluptates eum error corporis temporibus ratione, amet, voluptatem soluta tempora harum ea dicta atque neque assumenda qui sapiente quidem culpa quos incidunt.</p>
+                    <h1 id="gallery">Gallery</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam magnam consectetur, laudantium ex temporibus sequi sunt ullam facere eligendi, sit, quam illo nulla minima voluptas sint odit architecto enim expedita voluptatem aut voluptates ducimus dolorum aperiam? Provident dolore, praesentium officia cupiditate impedit voluptates eum error corporis temporibus ratione, amet, voluptatem soluta tempora harum ea dicta atque neque assumenda qui sapiente quidem culpa quos incidunt.</p>
                 </div>
             </div>
         </div>
     </div>
 <!-- TESTIMONI -->
-    <div class="container-fluid Testimoni pt-5 pb-5">
-       <div class="container text-center">
-        <h2 class="display-3" id="testimoni">Testimoni</h2>
+    <div class="container-fluid">
+       <div class="container testimoni">
+        <h1 id="testimoni">Testimoni</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, tenetur! Maxime facere dicta saepe debitis sed minima repudiandae nobis molestiae.</p>
-        <div class="row pt-4 g-4">
-            <div class="col-md-4 text-center shadow">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3 img-responsive img-fluid" style="width: 250px; height: 250px;">
+        <div class="row g-4 testi">
+            <div class="col-md-4 shadow">
+                <img src="ATbrAGLRc.jpg">
                 <h4>Arthur</h4>
                 <p>Web Designer</p>
                 <div class="fs-5">
@@ -145,8 +143,8 @@
                     <a href="#"><i class="bi bi-linkedin link-dark"></i></a>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3 img-responsive img-fluid" style="width: 300px; height: 300px;">
+            <div class="col-md-4">
+                <img src="ATbrAGLRc.jpg">
                 <h2>Muhammad Zaki</h2>
                 <p>Data Scientist</p>
                 <div class="fs-4">
@@ -155,8 +153,8 @@
                     <a href="#"><i class="bi bi-linkedin link-dark"></i></a>
                 </div>
             </div>
-            <div class="col-md-4 text-center shadow">
-                <img src="ATbrAGLRc.jpg" class="rounded-circle border border-5 object-fit-sm-contain mb-3 img-responsive img-fluid" style="width: 250px; height: 250px;">
+            <div class="col-md-4 shadow">
+                <img src="ATbrAGLRc.jpg">
                 <h4>David Villa</h4>
                 <p>Programmer</p>
                 <div class="fs-5">
@@ -169,68 +167,74 @@
        </div>
     </div>
 <!-- KONTAK -->
-    <div class=" pt-5 pb-3">
-        <h1 class="text-center display-3" id="kontak">Kontak Kami</h1>
-    </div>
-    <div class="container-fluid pt-5 pb-5 bg-secondary bg-opacity-10">
+    <div class="container-fluid contact">
+        <h1 id="kontak">Kontak Kami</h1>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mb-5">
-                    <div class="d-flex mb-5 fs-1">
-                            <i class="bi bi-geo-alt-fill social"></i>
-                        <div class="ms-4">
+                <div class="col-md-6">
+                    <div class="alamat">
+                        <i class="bi bi-geo-alt-fill social"></i>
+                        <div class="alamat1">
                             <h3>Alamat</h3>
-                            <h5 class="text-secondary">Makassar City</h5>
+                            <h5>Makassar City</h5>
                         </div>
                     </div>
-                    <div class="d-flex mb-5 fs-1">
-                            <i class="bi bi-telephone-fill social"></i>
-                        <div class="ms-4">
+                    <div class="telepon">
+                        <i class="bi bi-telephone-fill social"></i>
+                        <div class="telepon1">
                             <h3>Telepon</h3>
-                            <h5 class="text-secondary">082194330102</h5>
+                            <h5>082194330102</h5>
                         </div>
                     </div>
-                    <div class="d-flex fs-1">
-                            <i class="bi bi-envelope social"></i>
-                        <div class="ms-4">
+                    <div class="email">
+                        <i class="bi bi-envelope social"></i>
+                        <div class="email1">
                             <h3>Email</h3>
-                            <h5 class="text-secondary">zaki@gmail.com</h5>
+                            <h5>zaki@gmail.com</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 border rounded p-3">
-                    <div class="mb-3">
+                <div class="col-md-6 pesan">
+                    <div>
                         <label for="nama" class="form-label">Nama</label>
-                        <input type="nama" class="form-control" id="nama" placeholder="Masukkan nama anda">
+                        <input type="nama" class="form-control mb-3" id="nama" placeholder="Masukkan nama anda">
                     </div>
-                    <div class="mb-3">
+                    <div>
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Masukkan Email anda">
+                        <input type="email" class="form-control mb-3" id="email" placeholder="Masukkan Email anda">
                     </div>
-                    <div class="mb-3">
+                    <div>
                         <label for="hp" class="form-label">No.Hp</label>
-                        <input type="number" class="form-control" id="hp" placeholder="Masukkan No.Hp anda">
+                        <input type="number" class="form-control mb-3" id="hp" placeholder="Masukkan No.Hp anda">
                     </div>
-                    <div class="mb-3">
+                    <div>
                         <label for="pesan" class="form-label">Pesan</label>
-                        <textarea class="form-control" id="Pesan" rows="3"></textarea>
+                        <textarea class="form-control mb-3" id="Pesan" rows="3"></textarea>
                     </div>
-                    <div class="mb-3">
-                        <button type="button" class="btn btn-primary float-end">Kirim Pesan</button>
+                    <div>
+                        <button type="button" class="btn btn-dark">Kirim Pesan</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 <!-- FOOTER -->  
-    <div class="fixed-bottom">
-        <a href="#navbar"><i class="bi bi-arrow-up-circle-fill fs-1 text-secondary float-end me-5 mb-5 "></i></a>
+    <div class="panah">
+        <a href="#navbar"><i class="bi bi-arrow-up-circle-fill text-secondary"></i></a>
         </a>
     </div> 
-    <footer class="bg-dark text-secondary text-center p-2">
-        copyright&copy;zaki2023, All Right Reserved.
-    </footer>
-<!-- script -->
+        <div class="footer">
+            <p>copyright&copy;zaki2023, All Right Reserved.</p>
+        </div>
+        <div>
+            <ul class="logo">
+                <li><i class="bi bi-whatsapp"></i></li>
+                <li><i class="bi bi-instagram"></i></li>
+                <li><i class="bi bi-twitter"></i></li>
+                <li><i class="bi bi-linkedin"></i></li>
+            </ul>
+        </div>
+    <!-- script -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
       </script>
 </body>
