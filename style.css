@@ -86,13 +86,15 @@
 
 .gallery img {
     margin-bottom: 30px;
-    width: 550px;
+    width: 100%;
+    max-width: 650px;
     height: 550px;
     border-radius: 50px;
 }
 
 .testi img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 250px;
     border: 8px solid rgb(0, 51, 68);
     border-radius: 50%;
